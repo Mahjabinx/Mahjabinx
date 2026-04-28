@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Mahjabin Chowdhury</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#experiences">Expériences</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#formation">Formation</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="cv_mahjabin_chowdhury.pdf" download class="nav-cv">↓ CV</a>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <h1 class="hero-name">
+        Mahjabin<br>
+        <span>CHOWDHURY</span>
+      </h1>
+      <p class="hero-subtitle">
+        Étudiante en 2ème année de BUT Réseaux & Télécommunication spécialité Cybersécurité
+      </p>
+    </div>
+  </section>
+
+  <!-- SECTION À PROPOS -->
+  <div id="apropos" class="section-wrap">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2 class="section-title">À propos</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="apropos-text">
+      <div>
+        <p>👋 Je m'appelle Mahjabin CHOWDHURY, étudiante en 2ème année de <strong>BUT Réseaux & Télécommunications (spécialité Cybersécurité)</strong> à l'IUT de Villetaneuse (Université Sorbonne Paris-Nord). Passionnée par la cybersécurité, l'infrastructure réseau et le développement, <strong>je recherche un stage de 2 à 6 mois, disponible dès à présent</strong>.</p>
+        <p>Au cours de mon BUT, j'ai acquis des compétences solides : administration réseaux (VLAN, routage, ACL), sécurisation d'infrastructures (pare-feu, iptables), développement (Python, SQL, HTML/CSS) et virtualisation. J'ai mené de nombreux projets concrets (SAE) comme la conception de réseaux sécurisés multi-sites, le développement d'applications web de quiz, ou l'analyse de données avec Python.</p>
+        <p>Titulaire d'un <strong>Bac STI2D spécialité SIN</strong> (Systèmes d'Information et Numérique), j'ai développé des bases en programmation (Python, Arduino), en électronique et en administration système.</p>
+        <p>En parallèle, je cultive ma curiosité technologique en suivant l'actualité cybersécurité et en participant à des événements (ChangeNOW, VivaTech et des journées d'immersion chez L’Oréal, Orange, Rexel). Je réalise des projets personnels : création de sites web en HTML/CSS, challenges sur TryHackMe et RootMePro pour renforcer mes compétences en cybersécurité (pentesting, vulnérabilités). Je suis aussi passionnée par le dessin, la peinture, la musique et les jeux vidéo – des activités qui développent ma créativité, ma rigueur et mon esprit d'équipe.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPÉRIENCES -->
+  <div id="experiences" class="section-wrap-alt">
+    <div class="section-wrap">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2 class="section-title">Expériences</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">05/22 – 07/22 (30 Jours)</div>
+          <div class="timeline-title">Assistante de l’informaticien (PFMP)</div>
+          <div class="timeline-org">Lycée Montchapet, Dijon (21000)</div>
+          <ul class="timeline-list">
+            <li>Assistance dans la maintenance et le dépannage des ordinateurs et du réseau</li>
+            <li>Installation et configuration de logiciels et périphériques</li>
+            <li>Support aux enseignants et aux élèves pour les problèmes informatiques</li>
+            <li>Organisation du matériel et suivi des stocks</li>
+            <li>Travail en équipe et respect des consignes de sécurité informatique</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">06/24 – 09/24 (3 mois)</div>
+          <div class="timeline-title">Serveuse – Restaurant Le Pacha</div>
+          <div class="timeline-org">Le Bourget (93350)</div>
+          <ul class="timeline-list">
+            <li>Accueil des clients et prise de commandes (sur place et à emporter)</li>
+            <li>Service en salle et organisation des tables</li>
+            <li>Préparation et aide à la réalisation des commandes à emporter</li>
+            <li>Encaissement et gestion des paiements</li>
+            <li>Travail en équipe et respect des règles d’hygiène et de sécurité</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024 – 2026</div>
+          <div class="timeline-title">Association Capital Filles</div>
+          <ul class="timeline-list">
+            <li>ChangeNOW 2025 (26/04/25)</li>
+            <li>Journée de découverte de métiers scientifiques chez Rexel (12/02/2025)</li>
+            <li>Orange OpenTech 2024 (27/11/24)</li>
+            <li>Salon Vivatech (25/05/2024)</li>
+            <li>Journée de découverte de métier avec la Responsable Produit chez Orange (19/04/2024)</li>
+            <li>Journée d’immersion chez L’Oréal + Équipe Cybersécurité de l’Oréal (18/04/2024)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION COMPÉTENCES (intégrée) -->
+  <div id="competences" class="section-wrap">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2 class="section-title">Compétences</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <!-- Hard skills -->
+    <h3 style="font-size: 1.4rem; margin: 2rem 0 1rem; color: var(--accent);">Hard skills</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem;">
+      <div class="card">
+        <div style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">🌐</div>
+        <h3 class="skill-title">Réseaux</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+          <span class="skill-tag">Administration réseaux</span>
+          <span class="skill-tag">Configuration IP (IPv4/IPv6)</span>
+          <span class="skill-tag">Sous-réseaux</span>
+          <span class="skill-tag">VLAN</span>
+          <span class="skill-tag">Routage statique</span>
+          <span class="skill-tag">DHCP, DNS, FTP, SSH, NTP</span>
+        </div>
+      </div>
+      <div class="card">
+        <div style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">🔒</div>
+        <h3 class="skill-title">Cybersécurité</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+          <span class="skill-tag">Sécurité des systèmes & réseaux</span>
+          <span class="skill-tag">VLAN sécurisés</span>
+          <span class="skill-tag">DMZ, ACL, pare-feu</span>
+          <span class="skill-tag">Sensibilisation aux menaces</span>
+          <span class="skill-tag">Pentesting (TryHackMe, RootMe)</span>
+        </div>
+      </div>
+      <div class="card">
+        <div style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">⚡</div>
+        <h3 class="skill-title">Système électronique</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+          <span class="skill-tag">Conception circuits électroniques</span>
+          <span class="skill-tag">Programmation embarquée (Arduino / C++)</span>
+          <span class="skill-tag">Technologies IP</span>
+        </div>
+      </div>
+      <div class="card">
+        <div style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">📞</div>
+        <h3 class="skill-title">Téléphonie IP</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+          <span class="skill-tag">IPBX (Asterisk, FreePBX)</span>
+          <span class="skill-tag">SIP, softphone</span>
+          <span class="skill-tag">Déploiement & maintenance LAN</span>
+          <span class="skill-tag">Câblage RJ45, postes VoIP</span>
+        </div>
+      </div>
+      <div class="card">
+        <div style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">💻</div>
+        <h3 class="skill-title">Systèmes d'exploitation</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+          <span class="skill-tag">Windows</span>
+          <span class="skill-tag">Linux</span>
+        </div>
+      </div>
+      <div class="card">
+        <div style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">💡</div>
+        <h3 class="skill-title">Langages de programmation</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+          <span class="skill-tag">HTML, CSS, JavaScript, PHP</span>
+          <span class="skill-tag">Python, Bash scripting, PowerShell</span>
+          <span class="skill-tag">C++ (Arduino), SQL, PostgreSQL</span>
+        </div>
+      </div>
+      <div class="card">
+        <div style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">🛠️</div>
+        <h3 class="skill-title">Outils & environnements</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem;">
+          <span class="skill-tag">VirtualBox</span>
+          <span class="skill-tag">Visual Studio Code</span>
+          <span class="skill-tag">Git / GitHub / GitLab</span>
+          <span class="skill-tag">Pack Office, Google Workspace / Office 365</span>
+          <span class="skill-tag">Trello</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Soft skills -->
+    <h3 style="font-size: 1.4rem; margin: 3rem 0 1rem; color: var(--accent);">Soft skills</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+      <span class="soft-skill">Communication</span>
+      <span class="soft-skill">Esprit d’équipe</span>
+      <span class="soft-skill">Sens de l’organisation</span>
+      <span class="soft-skill">Rigueur</span>
+      <span class="soft-skill">Curiosité et volonté d’apprendre</span>
+      <span class="soft-skill">Créativité dans la résolution de problèmes</span>
+      <span class="soft-skill">Adaptabilité</span>
+    </div>
+
+    <!-- Langues -->
+    <h3 style="font-size: 1.4rem; margin: 3rem 0 1rem; color: var(--accent);">Langues</h3>
+    <div style="max-width: 500px;">
+      <div class="lang-item"><span class="lang-name">Français</span><div class="lang-bar-bg"><div class="lang-bar" style="width:100%"></div></div><span class="lang-level">C2</span></div>
+      <div class="lang-item"><span class="lang-name">Anglais</span><div class="lang-bar-bg"><div class="lang-bar" style="width:83%"></div></div><span class="lang-level">C1</span></div>
+      <div class="lang-item"><span class="lang-name">Bangla</span><div class="lang-bar-bg"><div class="lang-bar" style="width:100%"></div></div><span class="lang-level">NAT</span></div>
+      <div class="lang-item"><span class="lang-name">Hindi</span><div class="lang-bar-bg"><div class="lang-bar" style="width:20%"></div></div><span class="lang-level">A2</span></div>
+    </div>
+  </div>
+  
+  <!-- SECTION PROJETS (SAE) -->
+  <div id="projets" class="section-wrap-alt">
+    <div class="section-wrap">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h2 class="section-title">Projets & SAE</h2>
+        <div class="section-line"></div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem;">
+
+        <div class="card"><h3 class="skill-title">SAE 1.01 – Hygiène informatique</h3><p class="timeline-org">Équipe de 2 · Vidéo de sensibilisation</p><p>Création d’une courte vidéo pour informer des risques en cybersécurité et des bonnes pratiques d’hygiène informatique.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 1.02 – Routage avec Marionnet</h3><p class="timeline-org">En solo · Réseaux</p><p>Conception et configuration d’un réseau simulé (Marionnet) : routage, adressage IP, tables de routage, iptables, services réseau.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 1.03 – Microprocesseur 4 bits</h3><p class="timeline-org">Équipe de 2 · Architecture</p><p>Conception et simulation d’un microprocesseur 4 bits (ALU, banc de registres, accumulateur) pour instructions simples.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 1.04 – Site web personnel</h3><p class="timeline-org">Équipe de 2 · Développement web</p><p>Création d’un site vitrine : maquette, charte graphique, HTML/CSS pour une identité numérique professionnelle.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 1.05 – Traitement de données</h3><p class="timeline-org">Équipe de 2 · Python & Data</p><p>Programme Python pour analyser un fichier CSV (énergie éolienne/solaire), visualisations Matplotlib, génération d’une page HTML.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 2.01 – Réseau multi-sites</h3><p class="timeline-org">Équipe de 5 · Infrastructure</p><p>Réseau sécurisé pour entreprise multi-sites : adressage IP, VLAN, routage, services HTTP/DNS/SSH, NAT/PAT, ACL.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 2.03 – Solution IP/web</h3><p class="timeline-org">Équipe de 6 (3 binômes) · Full-stack</p><p>Plateforme web avec base de données pour gérer l’attribution automatique d’adresses IP aux clients.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 2.04 – Modernisation sécurité</h3><p class="timeline-org">Équipe de 2 · Cybersécurité</p><p>Infrastructure sécurisée (JurisNova) : VLAN (DMZ web, DMZ BDD, LAN, Wi-Fi invité), pare-feu, GLPI, serveurs.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 3.02 – Quiz Challenge (web)</h3><p class="timeline-org">Équipe de 4 · Application interactive</p><p>Application web de quiz en architecture client-serveur : gestion des utilisateurs, scores, questions.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 3.03 – Transmission optique</h3><p class="timeline-org">Équipe de 12 · Télécommunications</p><p>Système de transmission sur fibre optique (WDM), analyse des performances (débit, OSNR, BER).</p></div>
+        <div class="card"><h3 class="skill-title">SAE 3.04 – Réseau virtualisé</h3><p class="timeline-org">Équipe de 3 · Haute disponibilité</p><p>Infrastructure virtualisée haute disponibilité : sécurité, sauvegarde, continuité de service.</p></div>
+        <div class="card"><h3 class="skill-title">SAE 4.01 – Sécurité & pentest</h3><p class="timeline-org">En solo · Cybersécurité offensive</p><p>Identification, exploitation de vulnérabilités, proposition de contre-mesures dans une démarche proche du pentest.</p></div>
+
+      </div>
+    </div>
+  </div>
+  
+  <!-- SECTION FORMATION -->
+  <div id="formation" class="section-wrap">
+    <div class="section-header">
+      <span class="section-number">05</span>
+      <h2 class="section-title">Formation</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2024 – 2027</div>
+        <div class="timeline-title">BUT Réseaux & Télécommunications</div>
+        <div class="timeline-org">Université Sorbonne Paris Nord, IUT de Villetaneuse (93430)</div>
+        <ul class="timeline-list">
+          <li>Spécialité Cybersécurité (en cours)</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2021 – 2024</div>
+        <div class="timeline-title">BAC Technologique STI2D (Sciences et technologies de l'industrie et du développement durable)</div>
+        <div class="timeline-org">Lycée Paul Eluard, Seine-Saint-Denis (93200)</div>
+        <ul class="timeline-list">
+          <li>Spécialité SIN (Systèmes d'Information et Numérique)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION HOBBIES -->
+  <div id="hobbies" class="section-wrap-alt">
+    <div class="section-wrap">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <h2 class="section-title">Hobbies & centres d'intérêt</h2>
+        <div class="section-line"></div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem;">
+        <div class="card"><div style="font-size: 2rem; margin-bottom: 0.5rem;">🎨</div><h3 class="skill-title">Dessin & Peinture</h3><p>Art traditionnel et numérique, illustration</p></div>
+        <div class="card"><div style="font-size: 2rem; margin-bottom: 0.5rem;">🎵</div><h3 class="skill-title">Musique</h3><p>Écoute active, découverte d'artistes, concerts</p></div>
+        <div class="card"><div style="font-size: 2rem; margin-bottom: 0.5rem;">🎮</div><h3 class="skill-title">Jeux vidéo</h3><p>Stratégie, coordination, réflexes</p></div>
+        <div class="card"><div style="font-size: 2rem; margin-bottom: 0.5rem;">✈️</div><h3 class="skill-title">Voyages</h3><p>Découvertes culturelles (Inde, Malaisie, Italie, Thaïlande, Népal)</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION CONTACT -->
+  <div id="contact" class="section-wrap">
+    <div class="section-header">
+      <span class="section-number">07</span>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-line"></div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 500px;">
+      <a href="https://www.linkedin.com/in/mahjabin-chowdhury/" target="_blank" class="contact-link">
+        <span class="contact-link-icon">🔗</span> LinkedIn
+      </a>
+      <a href="mailto:mahjabinsamad1234@gmail.com" class="contact-link">
+        <span class="contact-link-icon">✉️</span> mahjabinsamad1234@gmail.com
+      </a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2025 Mahjabin Chowdhury</span>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/mahjabin-chowdhury/" target="_blank">LinkedIn</a>
+      <a href="mailto:mahjabinsamad1234@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('open');
+    }
+    document.addEventListener('click', (e) => {
+      const navLinks = document.getElementById('navLinks');
+      const hamburger = document.getElementById('hamburger');
+      if (navLinks.classList.contains('open') && !hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('open');
+      }
+    });
+    const cursor = document.getElementById('cursor');
+    const cursorRing = document.getElementById('cursorRing');
+    if (cursor && cursorRing) {
+      document.addEventListener('mousemove', (e) => {
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+        cursorRing.style.left = e.clientX + 'px';
+        cursorRing.style.top = e.clientY + 'px';
+      });
+      const interactive = document.querySelectorAll('a, button, .card, .btn-primary, .btn-secondary');
+      interactive.forEach(el => {
+        el.addEventListener('mouseenter', () => {
+          cursorRing.style.width = '52px';
+          cursorRing.style.height = '52px';
+          cursorRing.style.borderColor = 'rgba(0,229,160,0.8)';
+        });
+        el.addEventListener('mouseleave', () => {
+          cursorRing.style.width = '36px';
+          cursorRing.style.height = '36px';
+          cursorRing.style.borderColor = 'rgba(0,229,160,0.4)';
+        });
+      });
+    }
+    const reveals = document.querySelectorAll('.reveal');
+    function reveal() {
+      for (let el of reveals) {
+        const windowHeight = window.innerHeight;
+        const revealTop = el.getBoundingClientRect().top;
+        const revealPoint = 100;
+        if (revealTop < windowHeight - revealPoint) {
+          el.classList.add('visible');
+        }
+      }
+    }
+    document.querySelectorAll('.stat-card, .timeline-item, .card, .soft-skill, .lang-item').forEach(el => el.classList.add('reveal'));
+    window.addEventListener('load', reveal);
+    window.addEventListener('scroll', reveal);
+  </script>
+</body>
+</html>
